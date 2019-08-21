@@ -93,4 +93,38 @@ h1, h2, h3, h4, h5 {
     width: 100px;
   }
 
+   /* cta */
+   .cta {
+    display: flex;
+    justify-content: space-around;
+}
+.cta .cta-text {
+
+  justify-content: space-around;
+  font-size: 50px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+}
+
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+  margin-top: 69px;
+}
+
+
 
