@@ -126,5 +126,50 @@ h1, h2, h3, h4, h5 {
   margin-top: 69px;
 }
 
+/* main content */
+
+.main-content {
+    border-top: 1px solid black;
+    margin-top: 76px;
+    padding-top: 39px;
+  }
+  
+  .main-content .top-content {
+    display: flex;
+    align-content: space-between;
+    padding: 0 10px;
+  }
+  
+  .main-content .top-content .text-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .main-content .top-content .text-content:last-child {
+    margin-right: 0;
+  }
+  
+  .main-content .middle-img {
+    margin-top: 45px;
+  }
+  
+  .main-content .bottom-content {
+    display: flex;
+    margin-top: 37px;
+    padding: 0 10px;
+  }
+  
+  .main-content .bottom-content .text-content {
+    
+    display: flex;
+    margin-right: 12px;
+  }
+  
+  .main-content .bottom-content .text-content:last-child {
+    margin-right: 0;
+  }
+
+
 
 
