@@ -142,6 +142,7 @@ h1, h2, h3, h4, h5 {
   
   .main-content .top-content .text-content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
   }
@@ -163,6 +164,7 @@ h1, h2, h3, h4, h5 {
   .main-content .bottom-content .text-content {
     
     display: flex;
+    flex-direction: column;
     margin-right: 12px;
   }
   
